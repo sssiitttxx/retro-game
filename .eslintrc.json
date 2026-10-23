@@ -1,0 +1,21 @@
+{
+  "extends": "airbnb-base",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "jest": true
+  },
+  "rules": {
+    "no-console": "off",
+    "linebreak-style": "off",
+    "no-param-reassign": ["error", { "props": false }],
+    "no-restricted-syntax": ["error", "WithStatement", "LabeledStatement"],
+    "max-len": ["error", { "code": 120 }],
+    "implicit-arrow-linebreak": "off",
+    "function-paren-newline": "off"
+  }
+}
